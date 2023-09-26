@@ -1,0 +1,336 @@
+.partners-page .title h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing:10px;
+    margin-bottom:50px;
+}
+.partners-page .partner-form{
+    background: #fff;
+    padding:100px;
+}
+.partners-page .partner-form .form-box {
+  text-align: right;
+}
+.partners-page .partner-form .form-box form .row {
+  margin:0 -10px;
+}
+.partners-page .partner-form .form-box form .form-group {
+  padding:0px 10px;
+  margin-bottom: 20px;
+}
+/* Default Form Style */
+.partners-page .partner-form .form-box form {
+  position: relative;
+}
+
+.partners-page .partner-form .form-box form .row {
+  margin:0 -15px;
+}
+
+.partners-page .partner-form .form-box form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.partners-page .partner-form .form-box form .field-inner {
+  position: relative;
+  display: block;
+}
+
+.partners-page .partner-form .form-box form .field-inner .alt-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -15px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #9b9fa6;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.partners-page .partner-form .form-box form .form-group .field-label {
+  position: relative;
+  display: block;
+  color: #0f172b;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.partners-page .partner-form .form-box form .form-group .e-label {
+  position: relative;
+}
+
+.partners-page .partner-form .form-box form .form-group input[type="text"],
+.partners-page .partner-form .form-box form .form-group input[type="email"],
+.partners-page .partner-form .form-box form .form-group input[type="password"],
+.partners-page .partner-form .form-box form .form-group input[type="tel"],
+.partners-page .partner-form .form-box form .form-group input[type="url"],
+.partners-page .partner-form .form-box form .form-group input[type="file"],
+.partners-page .partner-form .form-box form .form-group input[type="number"],
+.partners-page .partner-form .form-box form .form-group textarea,
+.partners-page .partner-form .form-box form .form-group select,
+.partners-page .partner-form .form-box form .form-group .select2-container .selection,
+.partners-page .partner-form .form-box form .form-group .news-letter,
+.partners-page .partner-form .form-box form .form-group button{
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 100%;
+  font-size: 14px;
+  color: #686a6f;
+  line-height: 40px;
+  font-weight: 400;
+  padding:14px 30px;
+  background-color: #f4f5f8;
+  border: 1px solid #f4f5f8;
+  border-radius:20px;
+  display: flex;
+  align-items: center;
+  font-family: var(--thm-b-font);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.partners-page .partner-form .form-box form .form-group label{
+	 margin-bottom: 5px;
+	 color: #ff0000;
+     font-size: 14px;
+     text-transform: capitalize;
+     text-align: right;
+     display: block;
+     letter-spacing: 1px;
+     padding-top: 7px;
+     line-height: 24px;
+}
+.partners-page .partner-form .form-box form .form-group .multiSelect_field label{
+    position: absolute;
+    bottom: -35px;
+}
+.partners-page .partner-form .form-box form .form-group button{
+    display: inline-block;
+    width: auto;
+    padding:5px 50px;
+    color: #fff;
+    border-radius:50px;
+    background:var(--secondaryColor);
+	font-size: 25px;
+    font-weight: 500;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners-page .partner-form .form-box form .form-group button:hover{
+    background:var(--primaryColor);
+}
+.partner-form .form-box form .form-group .news-letter{
+    justify-content: center;
+}
+.partners-page .partner-form .form-box form .form-group .news-letter h3{
+    position:relative;
+    font-size: 22px;
+	font-family: var(--gsa-font)!important;
+	padding-right: 40px;
+	margin:0!important;
+}
+.partners-page .partner-form .form-box form .form-group .news-letter h3:before{
+    content: "✓";
+    position: absolute;
+    right: 0;
+    border: 1px solid #141414;
+    border-radius:50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#63c2a2;
+    margin-right: 8px;
+}
+.partners-page .partner-form .form-box form .form-group .select2-container--default .select2-selection--single{
+    background-color: transparent;
+    border: none;
+    border-radius:0;
+    width:100%;
+}
+.partners-page .partner-form .form-box form .form-group .select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 17px;
+    left: 20px;
+	width:30px;
+	height:30px;
+}
+.partners-page .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background: url(../img/form-arrows.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+	border-style:hidden;
+	right: 0;
+    margin-right: 0px;
+    margin-top: 0px;
+    top: 0;
+}
+.partners-page .partner-form .form-box form .form-group ::-webkit-input-placeholder {
+  opacity: 1;
+  color: inherit;
+}
+
+.partners-page .partner-form .form-box form .form-group :-ms-input-placeholder {
+  opacity: 1;
+  color: inherit;
+}
+
+.partners-page .partner-form .form-box form .form-group ::-ms-input-placeholder {
+  opacity: 1;
+  color: inherit;
+}
+
+.partners-page .partner-form .form-box form .form-group ::placeholder {
+  opacity: 1;
+  color: inherit;
+}
+
+.partners-page .partner-form .form-box form .form-group textarea {
+  height: 220px;
+  resize: none;
+}
+
+.contact-form .form-group input[type="submit"],
+.contact-form .form-group button {
+  display: inline-block;
+}
+
+.partners-page .partner-form .form-box form .form-group input[type="text"]:focus,
+.partners-page .partner-form .form-box form .form-group input[type="email"]:focus,
+.partners-page .partner-form .form-box form .form-group input[type="tel"]:focus,
+.partners-page .partner-form .form-box form .form-group input[type="number"]:focus,
+.partners-page .partner-form .form-box form .form-group textarea:focus,
+.partners-page .partner-form .form-box form .form-group select:focus {
+  border-color: var(--primaryColor);
+}
+
+.partners-page .partner-form .form-box form ::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+
+.partners-page .partner-form .form-box form ::-moz-input-placeholder {
+  color: #aaaaaa;
+}
+
+.partners-page .partner-form .form-box form ::-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+.checkboxes {
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.checkboxes__row {
+  display: flex;
+}
+.checkboxes__row:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.checkboxes__item {
+  width: 100%;
+}
+
+/* STYLE D */
+.select2-results {
+    direction:rtl;
+}
+.checkbox.style-d {
+  display: inline-block;
+  position: relative;
+  padding-right: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkbox.style-d input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox.style-d input:checked ~ .checkbox__checkmark {
+  background-color: var(--secondaryColor);
+}
+.checkbox.style-d input:checked ~ .checkbox__checkmark:after {
+  opacity: 1;
+}
+.checkbox.style-d:hover input ~ .checkbox__checkmark {
+  background-color: #eee;
+}
+.checkbox.style-d:hover input:checked ~ .checkbox__checkmark {
+  background-color: var(--secondaryColor);
+}
+.checkbox.style-d:hover input ~ .checkbox__body {
+  color: var(--secondaryColor);
+}
+.checkbox.style-d .checkbox__checkmark {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #eee;
+  transition: background-color 0.25s ease;
+  border-radius:11px;
+	border:2px solid var(--secondaryColor);
+}
+.checkbox.style-d .checkbox__checkmark:after {
+  content: "";
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.checkbox.style-d .checkbox__body {
+      color: #000;
+    line-height: 1.4;
+    font-size: 17px;
+    transition: color 0.25s ease;
+}
+.select2-container--default .select2-selection--multiple {
+    background-color: transparent;
+    border: none;
+	width:100%;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none;
+    outline: 0;
+    position: absolute;
+    width: 92%;
+    z-index: 1;
+    overflow-y: scroll;
+    height: 100%;
+	background-color:transparent;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    box-sizing: border-box;
+    list-style: none;
+    margin:0;
+    padding:0 5px;
+    width: 100%;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: none; 
+    font-size: 12px;
+}

@@ -1,0 +1,334 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GSA\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-23 08:20+0000\n"
+"PO-Revision-Date: 2023-05-28 12:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: gsa"
+
+#: lib/gsa_theme_init.php:169
+msgid " Description"
+msgstr ""
+
+#. Name of the template
+msgid "About Us Template"
+msgstr ""
+
+#: lib/gsa_theme_init.php:139
+msgid "Add New"
+msgstr ""
+
+#: footer.php:100
+msgid "All Rights Reserved"
+msgstr "كل الحقوق محفوظة"
+
+#: single-program.php:109 single-program.php:186 single-program.php:227
+msgid "Become A Partner"
+msgstr "كن شريكا"
+
+#: page-partners.php:74 page-purchase.php:50
+msgid "Choose Governorate"
+msgstr "أختر المحافظة"
+
+#: lib/gsa_meta_fields.php:621
+msgid "Choose Headlines: "
+msgstr ""
+
+#: page-partners.php:118
+msgid "Choose Industry"
+msgstr "أختر المجال"
+
+#: lib/gsa_meta_fields.php:430
+msgid "Choose instructors: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:740
+msgid "Choose the program in which the Faq appear: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:496
+msgid "Choose Topics Show: "
+msgstr ""
+
+#. Author of the theme
+msgid "Codezilla"
+msgstr ""
+
+#. Name of the template
+msgid "Contact Us Template"
+msgstr ""
+
+#: page-partners.php:54 page-purchase.php:30
+msgid "Email(business email only)"
+msgstr "البريد الالكترونى"
+
+#. Name of the template
+msgid "Faculty Template"
+msgstr ""
+
+#: lib/gsa_theme_init.php:155
+msgid "Featured Image"
+msgstr ""
+
+#: lib/gsa_meta_fields.php:273
+msgid "First Block Content: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:249
+msgid "First Block Number: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:261
+msgid "First Block Title: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:204
+msgid "First Section Content: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:191
+msgid "First Section Title: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:656
+msgid "Fivth Section Link Text: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:668
+msgid "Fivth Section Link URL: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:644
+msgid "Fivth Section Number: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:574
+msgid "Fourth Section Content: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:31 lib/gsa_meta_fields.php:585
+msgid "Fourth Section Image: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:561
+msgid "Fourth Section Title: "
+msgstr ""
+
+#: page-partners.php:70 page-purchase.php:46
+msgid "Governorate"
+msgstr "المحافظة"
+
+#. Name of the theme
+#. Description of the theme
+msgid "GSA"
+msgstr ""
+
+#: lib/gsa_meta_fields.php:183 lib/gsa_meta_fields.php:226
+#: lib/gsa_meta_fields.php:406 lib/gsa_meta_fields.php:464
+#: lib/gsa_meta_fields.php:554 lib/gsa_meta_fields.php:610
+#: lib/gsa_meta_fields.php:690
+msgid "Hidden Section"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://codzilla.net"
+msgstr ""
+
+#: page-partners.php:115
+msgid "Industry"
+msgstr "المجال"
+
+#: lib/gsa_meta_fields.php:414
+msgid "instructor Section Title: "
+msgstr ""
+
+#: page-partners.php:88
+msgid "Job title"
+msgstr "المسمى الوظيفى"
+
+#: page-smart.php:87 page-programs.php:148 single-program.php:293
+msgid "Learn More"
+msgstr "اعرف المزيد"
+
+#. Name of the template
+msgid "Management Courses Template"
+msgstr ""
+
+#: page-partners.php:47 page-purchase.php:23
+msgid "Name"
+msgstr "الاسم"
+
+#: lib/gsa_theme_init.php:151
+msgid "Not found"
+msgstr ""
+
+#: lib/gsa_theme_init.php:153
+msgid "Not found in Trash"
+msgstr ""
+
+#: page-partners.php:81
+msgid "Organization"
+msgstr "المؤسسة"
+
+#. Name of the template
+msgid "Partners Template"
+msgstr ""
+
+#: page-partners.php:62 page-purchase.php:38
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: page-partners.php:190
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: page-partners.php:189
+msgid "Please enter your Full name"
+msgstr "من فضلك ادخل اسمك الكامل"
+
+#: page-partners.php:192
+msgid "Please enter your governorate"
+msgstr "الرجاء إدخال محافظتك"
+
+#: page-partners.php:196
+msgid "Please enter your industry"
+msgstr "الرجاء إدخال مجال عملك"
+
+#: page-partners.php:194
+msgid "Please enter your job title"
+msgstr "الرجاء إدخال المسمى الوظيفي الخاص بك"
+
+#: page-partners.php:193
+msgid "Please enter your organization"
+msgstr "الرجاء إدخال مؤسستك"
+
+#: page-partners.php:191
+msgid "Please enter your phone"
+msgstr "الرجاء إدخال رقم هاتفك"
+
+#: page-partners.php:195
+msgid "Please enter your programs"
+msgstr "الرجاء إدخال البرامج الخاصة بك"
+
+#. Name of the template
+msgid "Privacy Policy Template"
+msgstr ""
+
+#: page-partners.php:100 page-purchase.php:60
+msgid "Programs"
+msgstr "البرامج"
+
+#. Name of the template
+msgid "Programs Template"
+msgstr ""
+
+#: lib/gsa_meta_fields.php:56
+msgid "Programs Type: "
+msgstr ""
+
+#. Name of the template
+msgid "Purchase Template"
+msgstr ""
+
+#: page-partners.php:135 page-purchase.php:84
+msgid "Receive updates/subscribe to newsletter"
+msgstr "اشترك في النشرة الإخبارية"
+
+#: lib/gsa_theme_init.php:159
+msgid "Remove featured image"
+msgstr ""
+
+#: lib/gsa_mail_functions.php:35 lib/gsa_mail_functions.php:169
+msgid "Required form field is missing"
+msgstr ""
+
+#: lib/gsa_meta_fields.php:314
+msgid "Second Block Content: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:290
+msgid "Second Block Number: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:302
+msgid "Second Block Title: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:370
+msgid "Second Section Link Text: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:382
+msgid "Second Section Link URL: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:233
+msgid "Second Section Title: "
+msgstr ""
+
+#: lib/gsa_theme_init.php:157
+msgid "Set featured image"
+msgstr ""
+
+#: lib/gsa_meta_fields.php:710
+msgid "Sixth Section Number: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:697
+msgid "Sixth Section Title: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:773
+msgid "Slider Show: "
+msgstr ""
+
+#. Name of the template
+msgid "Smart Cities Template"
+msgstr ""
+
+#: page-partners.php:145 page-purchase.php:96
+msgid "Submit"
+msgstr "إرسال"
+
+#. Name of the template
+msgid "Thank You Template"
+msgstr ""
+
+#: lib/gsa_meta_fields.php:355
+msgid "Third Block Content: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:331
+msgid "Third Block Number: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:343
+msgid "Third Block Title: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:525
+msgid "third Section Category: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:481
+msgid "third Section Courses Title: "
+msgstr ""
+
+#: lib/gsa_meta_fields.php:471
+msgid "third Section Diploma Title: "
+msgstr ""
+
+#: lib/gsa_theme_init.php:161
+msgid "Use as featured image"
+msgstr ""

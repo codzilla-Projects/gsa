@@ -1,0 +1,143 @@
+.headline{
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.headline .headline-title,
+.programs .headline-title{
+	display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.headline .headline-title h2,
+.programs .headline-title h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.headline .headline-title p,
+.programs .headline-title p{
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.headline .headline-item{
+	width: 90%;
+}
+.headline .headline-item-img img{
+	width: 100%;
+	border-radius: 35px;
+}
+.headline .headline-item .headline-item-content{
+	color: #fff;
+	background-image: -webkit-gradient(linear,left top,right top,from(var(--primaryColor)),color-stop(51%, var(--secondaryColor)),to(var(--primaryColor)));
+    background-image: var(--gradientFirst);
+  	padding: 30px;
+  	margin-top: -65px;
+  	border-radius: 35px;
+  	position: relative;
+  	z-index: 9;
+  	text-align: center;
+	background-size: 200% auto;
+	    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.headline .headline-item:hover .headline-item-content{
+	color: #fff;
+    background-position: 100%;
+}
+.headline .headline-item .headline-item-content p{
+	color:#000;
+}
+/*------------------------------------------*/
+.about-3rd .row .left {padding-right: 30px;}
+.about-3rd .row .right {padding-left: 30px;}
+.about-3rd .row .right .sec-title,
+.about-3rd .row .left .sec-title{
+	margin-bottom:40px;
+}
+section.about-3rd {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+section.about-3rd .sec-title:before {
+    background: linear-gradient( 132deg, var(--secondaryColor) 0%, var(--primaryColor) 51%, var(--secondaryColor) 100% );
+    background-size: 200% auto;
+    width: 95px;
+    height: 95px;
+    top: -40px;
+    left: -40px;
+}
+section.about-3rd .sec-title h2 {letter-spacing: 2px;font-size: 35px;}
+.about-3rd h3.title {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+section.about-3rd p {
+    line-height: 1.2;
+    font-size: 18px;
+}
+section.about-3rd .image-container img {
+    width: 85%;
+}
+section.about-3rd .image-container {
+    justify-content: start;
+    margin-bottom: 15px;
+}
+/*---------------------------------------*/
+.programs .programs-blocks{
+
+}
+.programs .program-item{
+	background: var(--primaryColor);
+    padding: 20px;
+    border-radius: 10px;
+	position:relative;
+}
+.programs .program-item .program-item-img{
+
+}
+.programs .program-item .program-item-img img{
+	width: 100%;
+	border-radius: 10px;
+}
+.programs .program-item .program-item-content{
+	text-align: center;
+    padding: 20px 0 0;
+	min-height:195px
+}
+.programs .program-item .program-item-content h3{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 22px;
+	color: #000;
+}
+.programs .program-item .program-item-content p{
+	color: #000;
+	font-size: 16px;
+    line-height: 20px;
+	margin:0;
+}
+.programs .program-item .program-item-content .cat {
+    position: absolute;
+    bottom: 20px;
+    display: block;
+    text-align: center;
+    width: calc(100% - 40px);
+}
+.programs .program-item .program-item-content .cat span{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.programs .program-item .program-item-content .category{
+	text-align: center;
+}
+.programs .thm-btn{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,left top,right top,from(var(--primaryColor)),color-stop(51%, var(--secondaryColor)),to(var(--primaryColor)));
+    background-image: linear-gradient( to right, var(--primaryColor) 0%, var(--secondaryColor) 51% );
+}

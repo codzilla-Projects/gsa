@@ -1,0 +1,229 @@
+.banner-contact:before{
+	content: none;
+}
+.banner-contact .banner-img{
+	position: absolute;
+	right: 0;
+	bottom:0;
+}
+.banner-contact .banner_content{
+	right: auto;
+	bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    text-align: left;
+}
+.banner-contact .banner_content h3{
+	color: #000;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.banner-contact .banner_content h4{
+	color: var(--primaryColor);
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.banner-contact .banner_content p{
+	width: 420px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.banner-contact .banner_content a{
+    font-weight: 600;
+}
+.banner-contact .contact-details{
+	width: 500px;
+}
+.contact-form{
+  	background-size: contain;
+  	background-position: center;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.contact-form .headline-title h3{
+	color: #000;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    z-index: 1;
+    position: relative;
+}
+
+/* Default Form Style */
+.default-form {
+  position: relative;
+}
+
+.default-form .row {
+  margin:0 -15px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.default-form .field-inner {
+  position: relative;
+  display: block;
+}
+
+.default-form .field-inner .alt-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -15px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #9b9fa6;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.default-form .form-group .field-label {
+  position: relative;
+  display: block;
+  color: #0f172b;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.banner-section .thm-btn {
+    padding:15px 100px;
+}
+
+.default-form .form-group .e-label {
+  position: relative;
+}
+
+.default-form .form-group input[type="text"],
+.default-form .form-group input[type="email"],
+.default-form .form-group input[type="password"],
+.default-form .form-group input[type="tel"],
+.default-form .form-group input[type="url"],
+.default-form .form-group input[type="file"],
+.default-form .form-group input[type="number"],
+.default-form .form-group textarea,
+.default-form .form-group select {
+	position: relative;
+	display: block;
+	height: 50px;
+	width: 100%;
+	font-size: 14px;
+	color: #686a6f;
+	line-height: 40px;
+	font-weight: 400;
+	padding:14px 30px;
+	background-color: #f4f5f8;
+	border: 1px solid #f4f5f8;
+	border-radius:15px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.default-form .form-group ::-webkit-input-placeholder {
+  	opacity: 1;
+  	color: inherit;
+}
+
+.default-form .form-group :-ms-input-placeholder {
+  	opacity: 1;
+  	color: inherit;
+}
+
+.default-form .form-group ::-ms-input-placeholder {
+  	opacity: 1;
+  	color: inherit;
+}
+
+.default-form .form-group ::placeholder {
+  	opacity: 1;
+  	color: inherit;
+}
+
+.default-form .form-group textarea {
+ 	height: 220px;
+  	resize: none;
+}
+
+.contact-form .form-group input[type="submit"],
+.contact-form .form-group button {
+  	display: inline-block;
+    border-radius:40px;
+    padding:10px 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 100;
+	border: none;
+}
+
+.contact-form .form-group input[type="submit"]:hover,
+.contact-form .form-group button:hover{
+	color: #fff;
+    background-position: 100%;
+}
+.default-form .form-group input[type="text"]:focus,
+.default-form .form-group input[type="email"]:focus,
+.default-form .form-group input[type="password"]:focus,
+.default-form .form-group input[type="tel"]:focus,
+.default-form .form-group input[type="url"]:focus,
+.default-form .form-group input[type="file"]:focus,
+.default-form .form-group input[type="number"]:focus,
+.default-form .form-group textarea:focus,
+.default-form .form-group select:focus,
+.form-group .ui-selectmenu-button.ui-button:focus,
+.form-group .ui-selectmenu-button.ui-button:active {
+  border-color: var(--primaryColor);
+}
+
+.default-form ::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+
+.default-form ::-moz-input-placeholder {
+  color: #aaaaaa;
+}
+
+.default-form ::-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+.default-form label{
+	font-size: 18px;
+    margin-bottom: 10px;
+}
+.social-media{
+	background: var(--gradientSecond);
+	padding:50px!important;
+}
+.social-media .social-block img{
+	width: 40px;
+}
+.social-media .social-block{
+  	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height:100%;
+}
+.social-media .social-block .social-phone{
+	text-align:right;
+}
+.social-media .social-block a{
+	color: #fff;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 300;
+	direction: ltr;
+    display: block;
+}
+.wpcf7 form.sent .wpcf7-response-output{
+	display:none;
+}

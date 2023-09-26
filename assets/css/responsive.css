@@ -1,0 +1,678 @@
+@media (max-width: 767.98px) {
+  .navbar-expand-lg .navbar-collapse{
+    margin:0!important; 
+    width: 100%;
+  }
+  .navbar-toggler {
+    margin-bottom:5px!important;
+    margin-top: 5px!important;
+  }
+  .navbar-toggler img{
+    width: 50px;
+  }
+  .sec-padding{
+    padding: 50px 0;
+  }
+  .thm-btn{
+    width: 85%;
+    margin:0 auto;
+  }
+  .navigation-menu ul {
+    flex-direction: column;
+  }
+  .navigation-menu .logo-mobile{
+      position: absolute;
+      right: 30px;
+      height: 68px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  .navigation-menu .logo{
+      display: none;
+    }
+  .navigation-menu .logo {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .navbar > .container-fluid {
+    padding: 0;
+    flex-direction: column;
+  }
+  .navbar-toggler {
+    align-self: baseline;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border:none;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    margin-top: 25px;
+	background: #141414;
+  }
+  .navigation-menu ul li {
+    margin-bottom: 15px;
+  }
+  .navigation-menu .logo img {
+    width: 60px;
+  }
+  .navigation-menu ul#menu-main-menu-right li:last-of-type {
+    margin-bottom: 25px;
+  }
+  .navigation-menu .logo:before,
+  .navigation-menu .logo:after {
+    content: normal;
+  }
+  .banner-section .banner_title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900!important;
+    letter-spacing: 2px!important;
+  }
+  .banner-section .thm-btn {
+    font-size: 12px;
+  }
+  .banner_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: auto;
+	bottom:auto
+  }
+  .banner-section .banner_content:before{
+    top:-30px;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+  }
+  .slider_banner h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+  }
+  .slider_banner p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .slider_banner__nav .swiper-button-next, 
+  .slider_banner__nav .swiper-button-prev{
+    top: 50%;
+  }
+  .slider_banner__nav .swiper-button-next img, 
+  .slider_banner__nav .swiper-button-prev img{
+    width: 75%;
+  }
+  .slider_banner .swiper-slide .slider-container{
+    padding: 0;
+  }
+  .slider_banner .slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    padding: 20px;
+  }
+  .banner-section .thm-btn{
+    margin-left: auto;
+  }
+  .slider_banner .swiper-slide .slider-container .row{
+    align-items: center;
+    display: flex;
+  }
+  .slider_banner .col-md-6.img {
+    margin-top: 40px;
+  }
+  .slider_banner .swiper-slide .image-layer{
+    position: relative;
+  }
+  .slider_banner .swiper-slide .image-layer:before{
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+  }
+  .owl-theme .owl-dots {
+    padding-top: 0;
+  }
+  .slider_banner .img-position{
+    position: absolute;
+  }
+  .slider_banner__nav img {
+    width: 25px;
+  }
+  .slider_banner__nav {
+    top: calc(50% - 22px);
+  }
+  .slider_banner__nav .swiper-button-next {
+    right: 15px;
+  }
+  .slider_banner__nav .swiper-button-prev {
+    left: 15px;
+  }
+  .sec-title h2 {
+    font-size: 35px;
+  }
+  .sec-title:before {
+    width: 90px;
+    height: 90px;
+    top: -38px;
+    left: -40px;
+  }
+  .sec-title {
+    width: 75%;
+    margin: 0 auto 50px;
+  }
+  .diploma-item a.thm-btn.mt-4.mb-4 {
+    font-size: 15px;
+  }
+	.diploma-section .diploma-item .program-content p{
+		transform: translateY(0);
+		opacity: 1;
+		visibility: visible;
+		position: relative;
+	}
+  .diploma-section .diploma-item {margin-bottom: 25px; height: auto;}
+  .diploma-section {
+    padding: 100px 0 50px;
+  }
+  .vision-banner{
+    padding: 100px 0;
+  }
+  .vision-banner .vision-bg{
+    width: 90%;
+    margin-top:0  
+  }
+  .vision-banner .vision-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .vision-banner .vision-content-img:before {
+    content: normal;
+  }
+  .vision-content .col-md-4 {
+    margin-top: calc(1.5rem * 0.5);
+  }
+  .vision-banner .vision-content {
+    margin-top: 0;
+  }
+  .certificate h2 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 2;
+  }
+  .certificate p {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+  .certificate > .container > .row .col-md-4 {
+    align-items: center;
+  }
+  .certificate > .container,
+  .certificate > .container > .row,
+  .certificate > .container > .row .col-md-8,
+  .certificate > .container > .row .col-md-4,
+  .certificate-img img,
+  .certificate-img,
+  .certificate {
+    height: auto;
+  }
+  .certificate {
+    padding: 100px 0;
+    text-align: center;
+  }
+  .certificate-img img {
+    width: 100%;
+  }
+  .certificate > .container > .row .col-md-8 {
+    margin-top: 25px;
+  }
+  section.video-popup {
+    background-size: auto;
+    height: 50vh;
+  }
+  .play-btn:before ,.play-btn:after{left: 30px;}
+  #light {
+    left: 77%;
+    max-width: 100%;
+  }
+  #VisaChipCardVideo {
+    max-width: 100%;
+  }
+  .vid-title {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+  .play-btn img {
+    width: 60px;
+  }
+  .home-faculty .thm-btn {
+    width: 85%;
+    font-size: 18px;
+  }
+  section.details {
+    height: auto;
+    padding: 0;
+  }
+  .details .image-container {
+    height: 100px;
+    margin-top: 30px;
+  }
+  .details .element-title {
+    margin: 15px auto 15px;
+  }
+  .details .col-md-4 {
+    margin-bottom: 50px;
+  }
+  section.become-student {
+      background-position: 0 75%;
+	  padding: 270px 0 50px;
+  }
+  section.become-student .content {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  section.become-partner {
+    padding: 100px 0;
+  }
+  section.become-partner .container > img {
+    width: 100%;
+  }
+  footer.main-footer {
+    padding: 0 0 35px 0;
+  }
+  footer.main-footer .col-md-3 {
+    justify-content: center;
+    margin-top: 35px;
+  }
+  footer.main-footer .footer-nav li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  /*Programs Page*/
+  .headline .headline-item{
+    width: 100%;
+  }
+  .headline .headline-item:first-of-type{
+    margin-bottom: 30px;
+  }
+  .programs-partner .row,
+  .programs-partner .row .left,
+  .programs-partner .row .right{
+    padding: 0;
+  }
+  .programs-partner .row .right{
+    margin-top: 50px;
+  }
+  .programs-partner .image-container{
+    justify-content: center!important;
+  }
+  .programs-partner .left h3,
+  .programs-partner .left p,
+  .programs-partner .right h3,
+  .programs-partner .right p{
+    text-align: center;
+  }
+  .programs .programs-blocks{
+    margin-bottom: 30px;
+  }
+  section.about-3rd {
+    padding-top: 0px;
+  }
+  section.about-3rd .about-3rd-bg{
+    padding: 0;
+  }
+  section.about-2nd {
+      padding: 100px 0 50px;
+  }
+	section.about-2nd .content p{
+		text-align:left;
+	}
+  .about-contact .row{
+      flex-direction: column-reverse;
+  }
+  .about-2nd .image-container{
+    height: auto;
+    margin-bottom: 30px;
+  }
+  section.about-2nd h2.title{
+    font-size: 30px;
+  text-align:center
+  }
+  .about-3rd .row .left{
+    margin-top: 100px;
+  }
+  section.about-3rd .image-container{
+    display: flex;
+    justify-content: center;
+	  margin-top:30px;
+  }
+  section.about-3rd .image-container img {
+    width: 80%;
+  }
+  .about-3rd .row .right{
+    margin-top: 50px;
+  }
+  section.about-3rd .left p,
+  section.about-3rd .right p,
+  .about-3rd h3.title,
+  .vision-banner .vision-content h3,
+  section.about-contact .image-container{
+    text-align: center;
+  }
+	section.about-3rd .left p,
+	section.about-3rd .right p{
+		padding: 0 30px;
+	}
+  .about-contact h2.title {
+    font-size: 35px;
+    text-align: center;
+  }
+  section.about-3rd .sec-title h2 {
+    font-size: 30px;
+  }
+  .banner-section-four h2 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .banner-section-four p{
+    text-align: center;
+  }
+  .banner-section-four__nav .swiper-button-next img, 
+  .banner-section-four__nav .swiper-button-prev img{
+    width: 100%;
+  }
+  .banner-section-four .auto-container {
+    padding-top: 180px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .headline .headline-title h2,
+  .diploma-seventh .diploma-seventh-title h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .diploma-first h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .diploma-third .modules-title h2, 
+  .diploma-fourth .instructor-title h2, 
+  .diploma-sixth .diploma-sixth-title h2,
+  .diploma-first p{
+    text-align: center;
+  }
+  .diploma-sixth .headline-item {
+      justify-content: center;
+  }
+  .headlines-1 .headline-item{
+      justify-content: flex-start;
+  }
+  .headlines-1.diploma-sixth .headline-item{
+    min-height: auto;
+  }
+  .diploma-seventh:before {
+    right: 70px;
+  }
+  .diploma-seventh .accordion-button{
+    font-size: 20px;
+  }
+  .padding-50{
+    padding: 0;
+  }
+  .bg{
+    margin:0;
+  }
+  .about-3rd .row .right .sec-title, 
+  .about-3rd .row .left .sec-title {
+      min-height: auto;
+  }
+  .programs .headline-title p{
+    font-size: 20px;
+  }
+  .banner-contact .banner_content {
+    text-align: center;
+  }
+  .banner-contact .contact-details{
+    width: 100%;
+  }
+  .banner-contact .banner_content .justify-content-end {
+    justify-content: center;
+  }
+  .banner-contact .banner_content p {
+     width: 100%; 
+    margin-left: 0; 
+    margin-bottom: 75px;
+    position: relative;
+  }
+  .contact-form{
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .contact-form .headline-title h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+  .social-media .social-block{
+    margin:10px 0;
+	  text-align:left;
+  }
+  footer.main-footer .footer-contact .social-icons ul{
+    justify-content: center;
+  }
+  .programs .headline-title h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .diplomas .diplomas-blocks {
+    margin-bottom: 30px;
+  }
+  .diplomas .diploma-item{
+    min-height: auto;
+  }
+  .diplomas .diploma-item .diploma-item-content h3 {
+    font-size: 22px;
+  }
+  .fixed-header .navigation-menu .logo-sticky{
+    display: none;
+  }
+  section.become-partner .partners .container{
+    padding: 0;
+  }
+  .headline .headline-title p, .programs .headline-title p {
+      font-size: 18px;
+      text-transform: capitalize;
+      font-weight: 500;
+      line-height: 18px;
+  }
+  .headline .headline-item .headline-item-content {
+    padding: 10px;
+    margin-top: -60px;
+  }
+  .headline .headline-item .headline-item-content p{
+    margin-bottom:0;
+  }
+  .programs .programs-blocks a{
+    width: 100% !important;
+  }
+  .banner-contact .banner-img{
+    display: block;
+    width: 100%;
+  }
+  .banner-contact{
+    align-items: flex-start;
+    padding-top: 75px;
+    height: calc(100vh - 80px);
+  }
+  .banner-contact .banner_content a{
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+  .banner-contact .banner_content p{
+    margin-bottom: 30px;
+  }
+  .default-form label{
+    margin-bottom:0;
+  }
+  .contact-form .form-group button{
+    width:100%!important;
+  }
+  section.diploma-first.sec-padding{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .diploma-second .headline .headline-title h2 {
+    margin-bottom: 25px;
+  }
+  .diploma-second .counter-block{
+    margin-bottom: 30px;
+  }
+  .diploma-second .number h2{
+    margin-bottom: 0;
+    line-height: 70px;
+  }
+  .diploma-sixth .headline-item{
+    margin: 0 25px 25px;
+  }
+  .diplomas .thm-btn{
+    width: 100%!important;
+  }
+  .headline .headline-title h2, 
+  .programs .headline-title h2{
+    margin-bottom: 25px;
+  }
+  .details-banner {
+    padding: 15px!important;
+  }
+  section.details{
+    background-size: contain;
+  }
+  section.details p {
+    padding: 0 10px;
+    margin: 0 15px;
+  }
+  section.become-student .btn,
+	section.become-partner .container .btn{
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+	section.about-contact .content{
+		width:100%
+	}
+	.about-contact a.contact-btn{
+		font-size:18px;
+		padding: 10px 20px;
+	}
+	.programs .program-item {
+		min-height:460px;
+	}
+	.purchase-page{
+		padding:0;
+	}
+	.purchase-page .purchase-left{
+		padding: 100px 50px 50px;
+	}
+	.purchase-page .title h2{
+		text-align:center;
+	}
+	.purchase-page .purchase-form,
+	.partners-page .partner-form{
+		padding: 50px 20px;
+	}
+	.purchase-page .purchase-form .form-box form .form-group .news-letter h3,
+	.partners-page .partner-form .form-box form .form-group .news-letter h3{
+		font-size:16px;
+	}
+	.purchase-page .purchase-form .form-box form .form-group button,
+	.partners-page .partner-form .form-box form .form-group button{
+		width:100%;
+	}
+	.alert.alert-success{
+		text-align:center;
+	}
+	.certificate a.thm-btn.second-thm-btn.mobile{
+		display:block;
+		margin-top: 30px;
+	}
+	.certificate a.thm-btn.second-thm-btn.desktop{
+		display:none;
+	}
+	.diploma-first p{
+		text-align:left;
+	}
+	.purchase-page .title h2 {
+	font-size:25px;
+	}
+	.checkbox.style-d .checkbox__body {
+		line-height: 1.7;
+		font-size: 14px;
+	}
+	.become-popup .modal-body{
+		padding:0px 20px 20px
+	}
+	#mailpoet_form_1 .mailpoet_form_column{
+		margin:0!important;
+	}
+	.become-popup .subscribe{
+		padding:10px!important;
+	}
+	.become-popup h2.mailpoet-heading.text{
+		font-size:14px!important;
+		line-height:27px!important;
+	}
+	.become-popup .mailpoet_form_columns.mailpoet_paragraph.mailpoet_stack_on_mobile{
+		display:block!important;
+	}
+	.become-popup #mailpoet_form_1 .mailpoet_paragraph label{
+		font-size: 13px!important;
+		height:30px!important;
+		margin-top:0!important
+	}
+	footer.main-footer .social-icons ul,
+	footer.main-footer .contact-info ul{
+		padding:0!important;
+	}
+	.footer-bottom .copyright {
+		font-size:12px;
+	}
+	.social-media .social-block{
+		justify-content:flex-start;
+	}
+	section.about-2nd .content h2.title,
+	.about-contact .content h2.title{
+		display:none !important;
+	}
+	section.about-2nd .image h2.title,
+	.about-contact .image h2.title{
+		display:block !important;
+	}
+	section.about-2nd .row{
+		flex-direction: column-reverse;
+	}
+	.about-contact h2.title{
+		text-align:center;
+	}
+	section.become-student h2.headline,
+	section.become-partner .container h2.headline{
+		padding:0 60px;
+	}
+}
